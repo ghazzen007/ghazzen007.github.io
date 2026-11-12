@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects — Ghassen Jdidi</title>
+  <meta name="description" content="Projects by Ghassen Jdidi: full-stack web apps, document AI and automation.">
+  <meta name="theme-color" content="#1d4e89">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/bricolage-grotesque-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/fonts.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="container nav" aria-label="Main">
+      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">GJ</span>Ghassen Jdidi</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html" aria-current="page">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="page-intro">
+      <div class="container">
+        <h1>Projects</h1>
+        <p>Web applications, document AI and automation. Each one solved a real problem for a class, a hackathon, an internship or my own business.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Project list">
+      <div class="container">
+        <div class="filters" data-filters role="group" aria-label="Filter projects"></div>
+        <p class="filter-count" data-project-count aria-live="polite"></p>
+        <ul class="project-list" data-all-projects>
+          <noscript><li>Turn on JavaScript to see the projects, or visit the GitHub profile: github.com/ghazzen007</li></noscript>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span data-year>2026</span> Ghassen Jdidi. Built with HTML, CSS and JavaScript.</p>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/ghassen-jd-5638bb377" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/ghazzen007" target="_blank" rel="noopener">GitHub</a>
+        <a href="mailto:ghassen.jdidi04@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/projects-data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

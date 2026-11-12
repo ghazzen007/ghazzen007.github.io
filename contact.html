@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Ghassen Jdidi</title>
+  <meta name="description" content="Contact Ghassen Jdidi about internships, freelance work or projects.">
+  <meta name="theme-color" content="#1d4e89">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/bricolage-grotesque-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/fonts.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="container nav" aria-label="Main">
+      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">GJ</span>Ghassen Jdidi</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="section">
+      <div class="container contact-grid">
+        <div>
+          <h1>Let's talk</h1>
+          <p style="font-size:var(--fs-md);color:var(--slate);line-height:1.5">An internship offer, a freelance project or a question about my work: write to me and I'll reply within a day.</p>
+          <ul class="contact-list">
+            <li><span>Email</span><a href="mailto:ghassen.jdidi04@gmail.com">ghassen.jdidi04@gmail.com</a></li>
+            <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/ghassen-jd-5638bb377" target="_blank" rel="noopener">linkedin.com/in/ghassen-jd-5638bb377</a></li>
+            <li><span>GitHub</span><a href="https://github.com/ghazzen007" target="_blank" rel="noopener">github.com/ghazzen007</a></li>
+            <li><span>Location</span><strong>Ariana, Tunisia (UTC+1), open to remote work</strong></li>
+          </ul>
+        </div>
+
+        <form class="form" id="contact-form" novalidate>
+          <div class="form-row">
+            <div class="field">
+              <label for="name">Your name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required aria-describedby="name-error">
+              <span class="field-error" id="name-error" aria-live="polite"></span>
+            </div>
+            <div class="field">
+              <label for="email">Your email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-error">
+              <span class="field-error" id="email-error" aria-live="polite"></span>
+            </div>
+          </div>
+          <div class="field">
+            <label for="subject">Subject</label>
+            <input id="subject" name="subject" type="text" required aria-describedby="subject-error">
+            <span class="field-error" id="subject-error" aria-live="polite"></span>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required aria-describedby="message-error"></textarea>
+            <span class="field-error" id="message-error" aria-live="polite"></span>
+          </div>
+          <input class="hp" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <p class="form-status" role="status" hidden></p>
+          <div>
+            <button class="btn btn-primary" type="submit">Send message</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span data-year>2026</span> Ghassen Jdidi. Built with HTML, CSS and JavaScript.</p>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/ghassen-jd-5638bb377" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/ghazzen007" target="_blank" rel="noopener">GitHub</a>
+        <a href="mailto:ghassen.jdidi04@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
